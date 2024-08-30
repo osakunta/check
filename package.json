@@ -1,0 +1,23 @@
+{
+  "name": "check",
+  "version": "1.0.0",
+  "description": "Google Cloud and Workspace validations",
+  "main": "src/index.ts",
+  "scripts": {
+    "check": "tsx src/index.ts"
+  },
+  "author": "",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "fast-check": "^3.22.0"
+  },
+  "dependencies": {
+    "@anatine/zod-mock": "^3.13.4",
+    "@faker-js/faker": "^8.4.1",
+    "@googleapis/admin": "^23.0.0",
+    "tsx": "^4.19.0",
+    "vitest": "^2.0.5",
+    "zod": "^3.23.8"
+  }
+}

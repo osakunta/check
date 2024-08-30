@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "resolveJsonModule": true
+    },
+    "extends": "@tsconfig/strictest/tsconfig.json"
+}
